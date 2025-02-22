@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>PowerPoint Remote Controller</title>
     <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
     <script src="taskpane.js"></script>
-    <style>
-        body { font-family: Arial, sans-serif; padding: 20px; }
-        button { padding: 10px; margin: 5px; width: 100%; }
-    </style>
 </head>
 <body>
     <h2>PowerPoint Remote Controller</h2>
-    <button id="nextSlide">Next Slide</button>
+
     <button id="prevSlide">Previous Slide</button>
+    <button id="nextSlide">Next Slide</button>
     <button id="startPresentation">Start Presentation</button>
     <button id="endPresentation">End Presentation</button>
+
+    <br><br>
+
+    <!-- New Go to Page Number Feature -->
+    <input type="number" id="slideNumber" placeholder="Enter Slide Number" min="1">
+    <button id="goToSlideBtn">Go to Page</button>
 </body>
 </html>
