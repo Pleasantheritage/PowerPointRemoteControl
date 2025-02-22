@@ -8,7 +8,7 @@
     <DefaultLocale>en-US</DefaultLocale>
     <DisplayName>PowerPoint Remote Controller</DisplayName>
     <Description>Control PowerPoint slides remotely using Bluetooth.</Description>
-    <IconUrl>https://yourdomain.com/icon.png</IconUrl>
+    <IconUrl>https://yourdomain.com/powerpoint.png</IconUrl>
     <SupportUrl>https://yourdomain.com/support</SupportUrl>
     <AppDomains>
         <AppDomain>https://yourdomain.com</AppDomain>
