@@ -8,15 +8,15 @@
     <DefaultLocale>en-US</DefaultLocale>
     <DisplayName>PowerPoint Remote Controller</DisplayName>
     <Description>Control PowerPoint slides remotely using Bluetooth.</Description>
-    <IconUrl>https://yourdomain.com/powerpoint.png</IconUrl>
+    <IconUrl>https://github.com/Pleasantheritage/PowerPointRemoteControl/tree/main/powerpoint.png</IconUrl>
     <SupportUrl>https://yourdomain.com/support</SupportUrl>
     <AppDomains>
-        <AppDomain>https://yourdomain.com</AppDomain>
+        <AppDomain>https://github.com/Pleasantheritage/PowerPointRemoteControl/tree/main</AppDomain>
     </AppDomains>
     <Hosts>
         <Host Name="PowerPoint"/>
     </Hosts>
     <DefaultSettings>
-        <SourceLocation DefaultValue="https://yourdomain.com/taskpane.html"/>
+        <SourceLocation DefaultValue="https://github.com/Pleasantheritage/PowerPointRemoteControl/tree/main/taskpane.html"/>
     </DefaultSettings>
 </OfficeApp>
